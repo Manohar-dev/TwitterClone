@@ -1,0 +1,95 @@
+.header {   
+    border: solid 1px rgb(1, 7, 19);
+}
+/* .main {
+  color: brown;
+    
+}
+.tweets{
+    width: 50%;
+    justify-content: center;
+    border: 5px solid rgb(80, 21, 219);
+    
+}
+
+.feed{
+    width: 50%;
+    border: 5px solid rgb(9, 228, 64);
+    
+    
+}
+.first {
+    display: flex;
+    height: 100vh;
+    max-width: 100%;
+    border: 4px solid rgb(12, 6, 2);
+    } */
+
+    
+
+    .SideNav{
+        border: solid 1px rgb(132, 175, 255);
+        width: 250px;
+        padding : 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SideNav_Logo{
+        margin-right: 112px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .SideNav_Logo a img:hover{
+        background-color: rgb(231,231,232);
+        border-radius: 100%;
+    
+    }
+    .SideNav_Logo img{
+        width:40px; 
+        height:30px;
+    }
+    .SideNav  ul,li {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .SideNav  ul li svg{
+        margin-left: 20px;
+    }
+    .SideNav ul li a {
+        
+         margin-top: 10px;
+         width: 216px;
+         height: 50px;
+         color:black;
+         font-family: 'Calibri' sans-serif;
+         font-weight: 900;
+         text-decoration: none;
+         display: flex;
+         align-items: center;
+         gap: 20px;
+           
+    }
+   
+
+
+    .SideNav ul li a img{
+        margin-left: 20px;
+    }
+
+    .SideNav ul li a:hover{
+    background-color: rgb(231,231,232);
+    border-radius: 25px;
+        
+    }
+   
+    .SideNav a.icon :hover{
+        background-color: rgb(231,231,232);
+        border-radius: 40px;
+    }
