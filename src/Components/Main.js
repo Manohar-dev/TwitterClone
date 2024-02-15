@@ -4,6 +4,8 @@ import Recomondations from "./Recomondations";
 import UserFeed from "./UserFeed";
 import { Row, Col } from "react-bootstrap";
 import { Container } from "react-bootstrap";
+
+
 const Main = () => {
   return (
     <Container fluid className="Main m-0 p-0 ">
