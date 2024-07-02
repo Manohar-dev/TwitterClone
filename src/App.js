@@ -1,10 +1,23 @@
 import React from "react";
-import Main from "./Components/Main";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Loginpage from "./pages/Loginpage";
+import Homepage from "./pages/Homepage";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Loginpage />
+    },
+    {
+      path: "/home",
+      element: <Homepage />
+    }
+  ]);
+
   return (
     <div>
-      <Main />
+     <RouterProvider router={router} />
     </div>
   );
 }

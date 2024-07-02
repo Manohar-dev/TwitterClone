@@ -1,11 +1,4 @@
 import React, { useState } from "react";
-import {
-  Button,
-  Card,
-  Overlay,
-  OverlayTrigger,
-  Tooltip
-} from "react-bootstrap";
 import twittericon from "../assets/Twitter X.png";
 
 export const Suggestions = () => {
@@ -29,14 +22,14 @@ export const Suggestions = () => {
     }, 600);
   };
 
-  const profile_card = (props) => (
-    <Card {...props}>
-      <Card.Body>
-        Elon Musk <br />
-        @elonmusk
-      </Card.Body>
-    </Card>
-  );
+  // const profile_card = (props) => (
+  //   <Card {...props}>
+  //     <Card.Body>
+  //       Elon Musk <br />
+  //       @elonmusk
+  //     </Card.Body>
+  //   </Card>
+  // );
 
   return (
     <div className="Suggestions p-0 mt-4">
@@ -46,18 +39,18 @@ export const Suggestions = () => {
 
       <a href="">
         <div className="whotofollow">
-          <div className="profile_image">
-            <OverlayTrigger placement="top-start" overlay={profile_card}>
+          {/* <div className="profile_image"> */}
+            {/* <OverlayTrigger placement="top-start" overlay={profile_card}>
               <img
                 src={twittericon}
                 alt="profilepic"
                 onMouseEnter={handleHover}
                 onMouseLeave={handleMouseLeave}
               />
-            </OverlayTrigger>
-          </div>
-
-          <div className="followprofile">
+            </OverlayTrigger> */}
+          {/* </div> */}
+            
+          {/* <div className="followprofile">
             <div className="profile_details">
               <OverlayTrigger placement="top-start" overlay={profile_card}>
                 <span className="span1">Elon Musk</span> 
@@ -66,7 +59,7 @@ export const Suggestions = () => {
               <OverlayTrigger placement="top-start" overlay={profile_card}>
                 <span className="span2">@elonmusk</span>
               </OverlayTrigger>
-            </div>
+            </div> */}
 
             <div>
               <a
@@ -86,7 +79,7 @@ export const Suggestions = () => {
               </a>
             </div>
           </div>
-        </div>
+        
       </a>
 
       <a href="">

@@ -10,7 +10,7 @@ import gunther from "../assets/gunther.png";
 
 const SideNav = () => {
   return (
-    <div className="SideNav ">
+    <div className="SideNav">
       <div className="SideNav_Logo">
         <a href="https://twitter.com/home">
           <img src={twitter_icon} className="align-items-start" />

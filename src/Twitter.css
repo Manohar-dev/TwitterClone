@@ -1,3 +1,12 @@
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .loginpage {
   height: 100vh;
   display: flex;
@@ -20,7 +29,7 @@
 .loginpage_content{
   width: 50%;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -34,9 +43,7 @@
   font-weight: 700;
 }
 
-.loginpage_form{
-  width: 300px;
-}
+
 .Main{
   overflow-x: hidden;
 }
@@ -239,7 +246,8 @@ text-decoration: none;
 }
 
 .engagement_actions_row ul li div{
-
+  display: flex;
+  flex-direction: row;
 }
 
 .engagement_actions_row ul li img{
@@ -276,11 +284,14 @@ text-decoration: none;
   height: 18.75px;
 }
 
-.Recomondations {
-  height: 900px;
-}
+/* .Recomondations {
+  
+} */
 
 .searchbar {
+  display: flex;
+  flex-direction: row;
+  width: 340px;
   background-color: #eff3f4;
   height: 50px;
   border-radius: 25px;
@@ -303,9 +314,8 @@ text-decoration: none;
 .searchbar input {
   padding-left: 2px;
   height: 50px;
-  width: 293.25px;
-  background-color: #eff3f4;  
-  border: 0;
+  width: 100% ;
+  background-color: #eff3f4;
   border-radius: 25px;
 }
 
@@ -431,10 +441,6 @@ text-decoration: none;
   border-radius: 100%;
 }
 
-
-
-
-
 .Suggestions a .whotofollow .followprofile{
   display: flex;
   flex-direction: row;
@@ -526,7 +532,7 @@ text-decoration: none;
 .SideNav {
   margin-top: 2px;
   height: 100vh;
-  width: 220px;
+  width: 260px;
   position: fixed;
 }
 
@@ -601,6 +607,7 @@ text-decoration: none;
 .SideNav_post{
   width: 232px;
   height: 52px;
+  margin-top: 20px ;
   display: flex;
   background-color: #1d9bf0;
   justify-content: center;
@@ -623,7 +630,7 @@ text-decoration: none;
 .SideNav_profile{
   width: 260px;
   height: 65px;
-  margin-top: 56px;
+  margin-top: 30px;
   margin-left: 32px;
 }
 
@@ -642,8 +649,6 @@ text-decoration: none;
 }
 
 .SideNav_profile_pic{
-  height: 35.5px;
-  width: 35.5px;
   padding-left: 12px;
   display: flex;
   align-items: center;
