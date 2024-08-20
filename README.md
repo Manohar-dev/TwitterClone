@@ -8,13 +8,12 @@ This is a full-stack application built using React for the frontend and Express 
 
 ### Home Page
 
-![Home Page](![image](https://github.com/user-attachments/assets/a0999af3-d88c-4e8d-9a3d-2fe2b8971be2)
-)
+![Home Page](https://github.com/user-attachments/assets/a0999af3-d88c-4e8d-9a3d-2fe2b8971be2)
+
 
 ### Login Page
 
-![Login Page](![image](https://github.com/user-attachments/assets/21392229-1450-4052-813a-153714fd5006)
-)
+![Login Page](https://github.com/user-attachments/assets/21392229-1450-4052-813a-153714fd5006)
 
 ## Technologies Used
 
